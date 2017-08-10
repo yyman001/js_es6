@@ -35,3 +35,10 @@ gulp.task('build', function () {
 });
 
 //  gulp build 编译
+
+gulp.task('watch',function(){
+  gulp.watch(IN_FILE_NAME, ['build']).on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });
+});
+

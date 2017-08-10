@@ -25,3 +25,4 @@ export default {
 };
 
 // => npm run build 编译
+// => npm run watch 监听文件变化编译
