@@ -6,7 +6,7 @@
 
 var a = 'a.js';
 
-var b = function(){
+var b = function () {
     console.log('b.js');
 };
 
@@ -15,8 +15,12 @@ b();
 
 console.log('c!!!');
 
-const es6 = 'es6!!!';
+var es6 = 'es6!!!';
 
-console.log(`${es6}`);
+console.log('' + es6);
+
+{
+    console.log('开发环境');
+}
 
 })));

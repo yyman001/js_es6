@@ -19,5 +19,9 @@ var es6 = 'es6!!!';
 
 console.log('' + es6);
 
+{
+    console.log('开发环境');
+}
+
 })));
 //# sourceMappingURL=library.js.map

@@ -9,3 +9,9 @@ console.log('c!!!')
 const es6 = 'es6!!!';
 
 console.log(`${es6}`)
+
+ if (ENV !== 'production') {
+    console.log('开发环境')
+} else {
+    console.log('生成环境')
+} 
