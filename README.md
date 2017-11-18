@@ -8,19 +8,20 @@
 
 ### 2种ES6 => ES5 的编译环境
 - gulp方式
-- rollup 自带便宜方式
+- rollup 自带编译方式
 
 ### 安装依赖
+`main.js` 为入口文件，出口文件参考下面说明
 ```cmd
 npm i
 npm 编译 => 参考rollup.config.js
 // => npm run build 编译
 // => npm run watch 监听文件变化编译
-编译文件 => dist/bundle.js
+编译输出文件 => dist/rollup_out_es5.js
 
 //------
 //gulp 编译
 //gulp watch => 参考gulpfile.js
-编译文件 => dist/library.js
+编译输出文件 => dist/gulp_out_es5.js
 ```
 

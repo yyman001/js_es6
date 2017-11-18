@@ -8,7 +8,7 @@ var nodeResolve = require('rollup-plugin-node-resolve'),
  replace = require('rollup-plugin-replace');
 
 const IN_FILE_NAME = 'main.js';
-const OUT_FILE_NAME = './dist/library.js';
+const OUT_FILE_NAME = './dist/gulp_out_es5.js';
 
 gulp.task('build', function () {
   return rollup.rollup({

@@ -7,7 +7,7 @@ import babel from 'rollup-plugin-babel';
 import replace from 'rollup-plugin-replace';
 
 const IN_FILE_NAME = 'main.js';
-const OUT_FILE_NAME = 'bundle.js';
+const OUT_FILE_NAME = './dist/rollup_out_es5.js';
 
 export default {
   entry: IN_FILE_NAME,
