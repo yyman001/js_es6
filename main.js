@@ -9,7 +9,7 @@ console.log('c!!!')
 const es6 = 'es6!!!';
 
 console.log(`${es6}`)
-console.log('watch!!!')
+console.log('test!!!')
 console.log('watch-gulp!!!')
  if (ENV !== 'production') {
     console.log('开发环境')

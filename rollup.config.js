@@ -2,7 +2,8 @@
 import json from 'rollup-plugin-json';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
-import rollupTypescript from 'rollup-plugin-typescript';
+//import rollupTypescript from 'rollup-plugin-typescript'; //typescript 插件
+//如果未使用上面的插件 会 提示 'default' is imported from external module 'rollup-plugin-typescript' but never used
 import replace from 'rollup-plugin-replace';
 
 const IN_FILE_NAME = 'main.js';
